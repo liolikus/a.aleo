@@ -8,6 +8,12 @@ receiver: address = aleo1xvlh6eyf5lgfv2z5za47j6qkh3uv5e0ga6gdzg5l4rssheymxsqqsnk
 amount: u64 = 100u64;
 
 [transfer_public]
+sender: token = token {
+    owner: aleo1xvlh6eyf5lgfv2z5za47j6qkh3uv5e0ga6gdzg5l4rssheymxsqqsnkgc4,
+    gates: 0u64,
+    amount: 1u64,
+    _nonce: 0group,
+};
 receiver: address = aleo1mgfq6g40l6zkhsm063n3uhr43qk5e0zsua5aszeq5080dsvlcvxsn0rrau;
 amount: u64 = 50u64;
 
