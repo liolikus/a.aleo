@@ -1,0 +1,23 @@
+// The program input for a/src/main.leo
+[mint_public]
+receiver: address = aleo1xvlh6eyf5lgfv2z5za47j6qkh3uv5e0ga6gdzg5l4rssheymxsqqsnkgc4;
+amount: u64 = 100u64;
+
+[mint_private]
+receiver: address = aleo1xvlh6eyf5lgfv2z5za47j6qkh3uv5e0ga6gdzg5l4rssheymxsqqsnkgc4;
+amount: u64 = 100u64;
+
+[transfer_public]
+receiver: address = aleo1mgfq6g40l6zkhsm063n3uhr43qk5e0zsua5aszeq5080dsvlcvxsn0rrau;
+amount: u64 = 50u64;
+
+[transfer_private]
+sender: token = token {
+    owner: aleo1pvmhrzm5tevxg7rrj65z6txpvm9stfgex05v4lfs05677n7e0cxqdk46jr,
+    gates: 0u64,
+    amount: 100u64,
+    _nonce: 0group,
+};
+receiver: address = aleo1mgfq6g40l6zkhsm063n3uhr43qk5e0zsua5aszeq5080dsvlcvxsn0rrau;
+amount: u64 = 50u64;
+
